@@ -1,0 +1,71 @@
+body{
+    background: rgb(238, 227, 227);
+    margin: 0px 50px;
+}
+@media(max-width:550px){
+    body{
+        margin: 0px 0px;
+    }
+}
+nav ul li{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 15px;
+}
+.btn{
+    margin: 0px 10px;
+}
+#btn0, #btn1, #btn2{
+    background: rgb(238, 227, 227);
+}
+#btn1{
+    font-weight: bold;
+}
+#btn3{
+    background: #3F0E40;
+    color: #fff;
+    font-weight: bold;
+}
+#btn2{
+    border: 1px solid #3F0E40;
+    color: #3F0E40;
+    font-weight: bold;
+}
+#section2{
+    margin: 80px 0px;
+}
+@media (max-width:550px) {
+    #section2{
+        margin: 0px 0px;
+    }
+}
+.card{
+border: none;
+background: rgb(238, 227, 227);
+}
+.card h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 20px;
+}
+#btn4 {
+color: #fff;
+font-weight: bold;
+background: #3F0E40;
+padding: 15px 40px
+}
+#google-btn{
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 40px
+}
+@media (max-width:550px) {
+    #google-btn{
+        color: #fff;
+        font-weight: bold;
+        padding: 15px 5px;
+        margin-top: 10px;
+    }
+}
